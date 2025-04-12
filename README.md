@@ -1,5 +1,6 @@
 # prediccion_calidad_vino.ipynb
 
+```bash
 wine-project/
 ├── datos/
 │   └── winequality-red.csv       # Conjunto de datos original (vinos tintos)
@@ -11,6 +12,7 @@ wine-project/
 │
 └── README.md                    # Archivo para documentación del proyecto
 
+```
 ### Contenido mínimo requerido en cada notebook:
 
 1. **1_exploracion.ipynb**:

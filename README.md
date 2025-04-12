@@ -1,17 +1,15 @@
-# predicci-n_calidad_vino.ipynb
+# prediccion_calidad_vino.ipynb
 
-```bash
 wine-project/
-├── data/
-│   └── winequality-red.csv       # Dataset original (vinos tintos)
+├── datos/
+│   └── winequality-red.csv       # Conjunto de datos original (vinos tintos)
 │
 ├── notebooks/
-│   ├── 1_exploracion.ipynb      # Análisis exploratorio (EDA)
-│   ├── 2_modelo_arbol.ipynb     # Árbol de decisión
-│   └── 3_modelo_bosque.ipynb    # Random Forest + optimización
+│   ├── 1_eda.ipynb              # Exploración de los datos (EDA)
+│   ├── 2_decision_tree.ipynb    # Implementación del modelo de Árbol de Decisión
+│   └── 3_random_forest.ipynb    # Random Forest y ajustes del modelo
 │
-└── README.md                    # Este archivo de documentación
-```
+└── README.md                    # Archivo para documentación del proyecto
 
 ### Contenido mínimo requerido en cada notebook:
 
@@ -41,8 +39,8 @@ wine-project/
 # Seminario: Predicción de Calidad de Vino
 
 ## Resultados
-- Random Forest superó al Árbol de Decisión (68% vs 62% precisión)
-- Variables determinantes: alcohol, sulfatos y acidez volátil
+- Random Forest sobrepasó al Árbol de Decisión (68% vs 62% precisión)
+- Variables fundamentales: alcohol, sulfatos y acidez volátil
 
 ## Ejecución
 1. Instalar dependencias: `pip install pandas scikit-learn matplotlib`
